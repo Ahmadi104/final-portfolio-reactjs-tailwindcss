@@ -1,79 +1,59 @@
-// import { ScrollReveal } from "./Project";
-import image from "../assets/ezat.jpeg";
-// function About() {
-//   return (
-//     <section id="about" className="flex min-h-screen items-center ">
-//       <div className="w-full p-12 text-center space-y-8">
-//         <ScrollReveal>
-//           <h2 className="text-2xl font-light mb-24 mt-16 text-white md:text-5xl">
-//             Who I Am
-//           </h2>
-//         </ScrollReveal>
-//         <div className="flex flex-col md:flex-row items-center gap-8">
-//           <img
-//             src={image}
-//             alt=""
-//             className="w-[400px] h-[400px] rounded-2xl "
-//           />
-//           <p className="text-lg text-gray-300">
-//             I’m a Front-End Developer with a passion for crafting clean and
-//             responsive user interfaces. I specialize in building modern web
-//             applications using React, Next.js, and Tailwind CSS. My core tech
-//             stack includes React, Next.js, Tailwind CSS, and JavaScript. I'm
-//             also comfortable working with Git and responsive design techniques.
-//             I enjoy turning complex problems into simple, beautiful, and
-//             intuitive designs. I’m constantly learning and love collaborating
-//             with others to create great digital experiences.
-//           </p>
-//         </div>
-//         <div>
-//           <a
-//             href="#projects"
-//             className="inline-block rounded-lg border border-pink-500 bg-transparent px-6 py-3 text-lg font-semibold text-pink-500 shadow-md transition-all duration-300 hover:bg-pink-600 hover:text-white hover:shadow-lg hover:shadow-pink-500/50"
-//           >
-//             See My Projects
-//           </a>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default About;
+import image from "../assets/ezatabout.png";
+import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
 function About() {
   return (
     <section
       id="about"
-      className="min-h-screen px-6 py-16 flex flex-col md:flex-row items-center justify-center gap-10"
+      className="min-h-screen px-6 pt-16 flex flex-col md:flex-row items-center justify-center gap-10"
     >
-      {/* Left: Profile Info */}
       <div className="flex flex-col items-center text-center md:w-1/3">
         <img
           src={image}
-          alt="Your Photo"
-          className="w-40 h-40 rounded-full object-cover shadow-lg"
+          alt="Ezatullah Ahmadi photo"
+          className="w-50 h-50 rounded-full mt-16 object-cover shadow-lg"
         />
-        <h2 className="mt-4 text-xl font-bold">Ezatullah</h2>
+        <h2 className="mt-4 text-xl font-bold text-white">Ezatullah Ahmadi</h2>
         <h3 className="text-lg text-white">Front end Developer</h3>
-        {/* <p className="text-sm text-gray-400">Your Organization</p> */}
+        <p className="text-gray-300 italic text-sm max-w-xs">
+          Building beautiful, user friendly web experiences.
+        </p>
+        <h4 className="text-gray-400 mt-4">
+          Open to freelance and full time opportunities
+        </h4>
 
-        {/* Social Icons (optional) */}
-        <div className="mt-4 flex gap-3 text-xl text-white">
-          <a href="#">
-            <i className="fab fa-github">Github</i>
+        <div className="mt-8 flex gap-8 text-white">
+          <a
+            href="https://github.com/Ahmadi104"
+            className="flex flex-col items-center text-3xl opacity-70 transition-all duration-300 hover:text-indigo-400 hover:opacity-100"
+          >
+            <i className="">
+              <BsGithub />
+            </i>
+            <span className="text-sm mt-1">Github</span>
           </a>
-          <a href="#">
-            <i className="fab fa-linkedin">Linkedin</i>
+          <a
+            href="https://www.linkedin.com/in/ezatullah-ahmadi"
+            className="flex flex-col items-center text-3xl opacity-70 transition-all duration-300 hover:text-indigo-400 hover:opacity-100"
+          >
+            <i className="">
+              <BsLinkedin />
+            </i>
+            <span className="text-sm mt-1">Linkedin</span>
           </a>
-          <a href="#">
-            <i className="fab fa-twitter">Telegram</i>
+          <a
+            href="https://t.me/ezat_120"
+            className="flex flex-col items-center text-3xl opacity-70 transition-all duration-300 hover:text-indigo-400 hover:opacity-100"
+          >
+            <i className="">
+              <BsTelegram />
+            </i>
+            <span className="text-sm mt-1">Telegram</span>
           </a>
         </div>
       </div>
 
-      {/* Right: About Text */}
       <div className="md:w-2/3 space-y-6">
-        <h1 className="text-2xl mt-16 font-light text-white md:text-5xl">
+        <h1 className="text-2xl mt-10 md:mt-16 font-light text-white md:text-5xl">
           Let Me Introduce Myself
         </h1>
 
@@ -86,11 +66,14 @@ function About() {
           </span>{" "}
           from Herat University, where I developed a solid understanding of web
           technologies and design principles. My expertise lies in using
-          <span className="font-bold"> React.js, Next.js Tailwind CSS</span>,
-          and other modern tools to transform ideas into clean, interactive, and
-          efficient digital experiences. I thrive on writing clean code, solving
-          real-world problems, and continuously improving my skills to stay
-          current with the latest trends in web development. I’m excited to
+          <span className="font-bold text-lg">
+            {" "}
+            React.js, Next.js Tailwind CSS
+          </span>
+          , and other modern tools to transform ideas into clean, interactive,
+          and efficient digital experiences. I thrive on writing clean code,
+          solving real-world problems, and continuously improving my skills to
+          stay current with the latest trends in web development. I’m excited to
           contribute to projects that make a meaningful impact.
         </p>
 
@@ -101,21 +84,22 @@ function About() {
           Download CV
         </a>
 
-        {/* Interests & Education */}
         <div className="flex flex-col md:flex-row gap-10">
           <div>
             <h3 className="font-semibold text-lg mb-2 text-white">Interests</h3>
             <ul className="list-disc list-inside text-white space-y-1">
               <li>Front-End Development</li>
 
-              <li>React, Next.js & Tailwind</li>
+              <li>Learning New Technologies</li>
+              <li>Solving Coding Challenges</li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold text-lg mb-2 text-white">Education</h3>
             <ul className="list-disc list-inside text-white space-y-1">
-              <li>BSc in Computer Science</li>
-              <li>React Certification</li>
+              <li>Bachelor of Computer Science</li>
+              <li>Graduated: 2024</li>
+              <li>Focus: Web Development, React.js, Next.js</li>
             </ul>
           </div>
         </div>

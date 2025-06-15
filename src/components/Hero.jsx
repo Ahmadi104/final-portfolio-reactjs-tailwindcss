@@ -15,7 +15,7 @@ function Hero() {
           <img
             src={myimage}
             alt="My Picture"
-            className="w-[180px] cursor-pointer rounded-full shadow-md shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:shadow-xl hover:shadow-indigo-600 md:w-[230px]"
+            className="w-[180px] mt-8 cursor-pointer rounded-full shadow-md shadow-indigo-900 transition-all duration-300 hover:-translate-y-3 hover:shadow-xl hover:shadow-indigo-600 md:w-[230px]"
           />
         </motion.div>
         <motion.div

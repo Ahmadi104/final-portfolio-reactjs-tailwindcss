@@ -59,7 +59,7 @@ function Contact() {
         </div>
 
         {/* Contact Info Box */}
-        <div className=" text-white p-8 flex-1 space-y-6 ml-32">
+        <div className=" text-white p-8 flex-1 space-y-6 md:ml-32">
           <div>
             <h4 className="font-semibold flex items-center gap-4">
               <BsEnvelope className="text-xl text-indigo-400" />
@@ -75,7 +75,7 @@ function Contact() {
               <BsGeoAlt className="text-xl text-indigo-500" />
               Address:
             </h4>
-            <p className="text-sm py-1 inline-block mt-1 rounded">
+            <p className="text-sm px-2 py-1 inline-block mt-1 rounded">
               Afghanistan,
               <br />
               Herat City
