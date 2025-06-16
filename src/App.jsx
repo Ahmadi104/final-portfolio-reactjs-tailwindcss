@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Tech from "./components/Tech";
 import About from "./components/About";
+import ThankYou from "./components/ThankYou";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/about" element={<About/>}/>
+            <Route path="/about" element={<About />} />
             <Route path="/tech" element={<Tech />} />
             <Route path="/project" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/ThankYou" element={<ThankYou />} />
           </Routes>
         </BrowserRouter>
       </main>

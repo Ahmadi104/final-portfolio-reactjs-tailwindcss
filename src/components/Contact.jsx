@@ -26,28 +26,41 @@ function Contact() {
             Feel free to reach out via email or the form below. I’m always open
             to discussing new projects or collaboration opportunities.
           </p>
-          <form className="space-y-4 bg-gray-950 p-4 rounded-2xl">
+          <form
+            action="https://formsubmit.co/ezatullahahmadi2023f@gmail.com"
+            method="POST"
+            className="space-y-4 bg-gray-950 p-4 rounded-2xl"
+          >
             <div className="flex flex-col md:flex-row gap-4">
               <input
                 type="text"
+                name="name"
                 placeholder="Enter Name..."
                 className="w-full rounded-md border border-indigo-600 s px-4 py-2"
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Enter Email..."
                 className="w-full rounded-md border border-indigo-600 s px-4 py-2"
               />
             </div>
             <input
               type="text"
+              name="subject"
               placeholder="Enter Subject..."
               className="w-full rounded-md border border-indigo-600 px-4 py-2"
             />
             <textarea
               placeholder="Enter Message..."
+              name="message"
               className="w-full rounded-md border border-indigo-600 px-4 py-2"
               rows={4}
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://localhost:5173/thankYou"
             />
             <button
               type="submit"
@@ -65,9 +78,12 @@ function Contact() {
               <BsEnvelope className="text-xl text-indigo-400" />
               E-Mail:
             </h4>
-            <p className="text-sm px-2 py-1 inline-block mt-1 rounded">
+            <a
+              href="mailto:ezatullahahmadi2023f@gmail.com"
+              className="text-sm px-2 py-1 inline-block mt-1 rounded"
+            >
               ezatullahahmadi2023f@gmail.com
-            </p>
+            </a>
           </div>
 
           <div>
@@ -76,9 +92,7 @@ function Contact() {
               Address:
             </h4>
             <p className="text-sm px-2 py-1 inline-block mt-1 rounded">
-              Afghanistan,
-              <br />
-              Herat City
+              Afghanistan, Herat City
             </p>
           </div>
 
@@ -97,16 +111,30 @@ function Contact() {
 
           <div className="flex gap-4 mt-4 p-2">
             <span className="cursor-pointer text-2xl opacity-70 transition-all duration-300 hover:text-red-400 hover:opacity-100">
-              <BsInstagram />
+              <a
+                href="https://www.instagram.com/ez4tullah._._.120"
+                target="_blank"
+              >
+                <BsInstagram />
+              </a>
             </span>
             <span className="cursor-pointer text-2xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <BsLinkedin />
+              <a
+                href="https://www.linkedin.com/in/ezatullah-ahmadi"
+                target="_blank"
+              >
+                <BsLinkedin />
+              </a>
             </span>
             <span className="cursor-pointer text-2xl opacity-70 transition-all duration-300 hover:text-gray-100 hover:opacity-100">
-              <BsGithub />
+              <a href="https://www.github.com/ahmadi104" target="_blank">
+                <BsGithub />
+              </a>
             </span>
             <span className="cursor-pointer text-2xl opacity-70 transition-all duration-300 hover:text-blue-400 hover:opacity-100">
-              <BsTelegram />
+              <a href="https://t.me/ezat_120" target="_blank">
+                <BsTelegram />
+              </a>
             </span>
           </div>
         </div>

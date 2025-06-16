@@ -65,18 +65,26 @@ function Navbar() {
         </li>
       </ul>
       <ul className="hidden md:flex gap-5">
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-400 hover:opacity-100">
-          <BsInstagram />
-        </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-          <BsLinkedin />
-        </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-100 hover:opacity-100">
-          <BsGithub />
-        </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-400 hover:opacity-100">
-          <BsTelegram />
-        </li>
+        <a href="https://www.instagram.com/ez4tullah._._.120" target="_blank">
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-400 hover:opacity-100">
+            <BsInstagram />
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/ezatullah-ahmadi" target="_blank">
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+            <BsLinkedin />
+          </li>
+        </a>
+        <a href="https://github.com/Ahmadi104" target="_blank">
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-100 hover:opacity-100">
+            <BsGithub />
+          </li>
+        </a>
+        <a href="https://t.me/ezat_120" target="_blank">
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-400 hover:opacity-100">
+            <BsTelegram />
+          </li>
+        </a>
       </ul>
       {isOpen ? (
         <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
@@ -132,18 +140,32 @@ function Navbar() {
             </li>
           </ul>
           <ul className="flex flex-wrap gap-5">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-400 hover:opacity-100">
-              <BsInstagram />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <BsLinkedin />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-100 hover:opacity-100">
-              <BsGithub />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-400 hover:opacity-100">
-              <BsTelegram />
-            </li>
+            <a
+              href="https://www.instagram.com/ez4tullah._._.120"
+              target="_blank"
+            >
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-400 hover:opacity-100">
+                <BsInstagram />
+              </li>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ezatullah-ahmadi"
+              target="_blank"
+            >
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+                <BsLinkedin />
+              </li>
+            </a>
+            <a href="https://github.com/Ahmadi104" target="_blank">
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-gray-100 hover:opacity-100">
+                <BsGithub />
+              </li>
+            </a>
+            <a href="https://t.me/ezat_120" target="_blank">
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-400 hover:opacity-100">
+                <BsTelegram />
+              </li>
+            </a>
           </ul>
         </div>
       )}

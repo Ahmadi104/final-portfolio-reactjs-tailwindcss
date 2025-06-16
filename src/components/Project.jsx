@@ -84,7 +84,7 @@ const Project = () => {
       className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-4 md:px-14 md:py-24 pt-18"
     >
       <ScrollReveal>
-        <h1 className="text-2xl font-light mb-24 mt-16 text-white md:text-5xl">
+        <h1 className="text-2xl font-light mb-8 mt-16 text-white md:text-5xl">
           My Projects
         </h1>
       </ScrollReveal>
