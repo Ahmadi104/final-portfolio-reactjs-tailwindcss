@@ -21,7 +21,7 @@ function Tech() {
   return (
     <div
       id="tech"
-      className="flex min-h-screen w-full flex-col items-center justify-start gap-4 md:gap-32 pt-32"
+      className="flex min-h-screen w-full flex-col items-center justify-start md:gap-8 pt-32"
     >
       <motion.h1
         variants={variants}
@@ -37,7 +37,7 @@ function Tech() {
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 0.5 }}
-        className="text-white text-xl text-center sm:text-lg mt-0"
+        className="text-gray-300 text-xl text-center sm:text-lg"
       >
         Here are the technologies and tools I’ve been working <br />
         with recently to build responsive and scalable web applications.

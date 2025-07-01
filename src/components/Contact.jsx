@@ -71,7 +71,6 @@ function Contact() {
           </form>
         </div>
 
-        {/* Contact Info Box */}
         <div className=" text-white p-8 flex-1 space-y-6 md:ml-32">
           <div>
             <h4 className="font-semibold flex items-center gap-4">

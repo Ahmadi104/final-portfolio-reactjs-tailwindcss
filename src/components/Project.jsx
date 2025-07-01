@@ -4,27 +4,31 @@ import image2 from "../assets/2.png";
 import image3 from "../assets/3.png";
 import image4 from "../assets/4.png";
 import { motion } from "framer-motion";
+import { BiLogoGithub } from "react-icons/bi";
 const projectsData = [
   {
     image: image1,
-    title: "first title",
+    title: "A simple store Project",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
-    technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+    technologies: ["HTML", "Tailwindcss", "Nextjs"],
+    github: "https://github.com/Ahmadi104/storeproject-nextjs.git",
   },
   {
     image: image2,
-    title: "second title",
+    title: "A greate todo-list app",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
-    technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+    technologies: ["React js", "Tailwindcss"],
+    github: "https://github.com/Ahmadi104/Todo-List.git",
   },
   {
     image: image3,
-    title: "third title",
+    title: "A simple blog website for your articles",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
-    technologies: ["Nextjs", "tailwindcss", "JavaScript", "MySQL"],
+    technologies: ["Nextjs", "tailwindcss", "JavaScript"],
+    github: "https://github.com/Ahmadi104/Article-blog.git",
   },
   {
     image: image4,
@@ -72,6 +76,17 @@ const ProjctCart = ({ project }) => {
               </span>
             ))}
           </div>
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 mt-2 text-indigo-400 hover:text-indigo-300 transition"
+            >
+              <BiLogoGithub className="text-2xl" />
+              View on GitHub
+            </a>
+          )}
         </div>
       </div>
     </ScrollReveal>

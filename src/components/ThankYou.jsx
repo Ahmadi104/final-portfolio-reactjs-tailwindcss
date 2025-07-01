@@ -11,7 +11,7 @@ function ThankYou() {
           href="/"
           className="inline-block mt-4 rounded-md bg-indigo-600 px-6 py-2 text-white font-semibold hover:bg-indigo-700 transition duration-300"
         >
-          Back to Home
+          Back to Home section
         </a>
       </div>
     </div>
