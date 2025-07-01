@@ -7,6 +7,7 @@ import {
   BsTelephone,
   BsGeoAlt,
 } from "react-icons/bs";
+import { motion } from "framer-motion";
 function Contact() {
   return (
     <section
@@ -19,8 +20,12 @@ function Contact() {
         </h1>
       </div>
 
-      <div className="flex flex-col lg:flex-row w-full max-w-6xl shadow-md rounded-md overflow-hidden">
-        {/* Contact Form */}
+      <motion.div
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        className="flex flex-col lg:flex-row w-full max-w-6xl shadow-md rounded-md overflow-hidden"
+      >
         <div className="flex-1 p-8">
           <p>
             Feel free to reach out via email or the form below. I’m always open
@@ -137,7 +142,7 @@ function Contact() {
             </span>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

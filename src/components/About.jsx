@@ -1,4 +1,5 @@
 import image from "../assets/ezatabout.png";
+import { motion } from "framer-motion";
 import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
 function About() {
   return (
@@ -13,14 +14,13 @@ function About() {
           className="w-50 h-50 rounded-full mt-16 object-cover shadow-lg"
         />
         <h2 className="mt-4 text-xl font-bold text-white">Ezatullah Ahmadi</h2>
-        <h3 className="text-lg text-white">Front end Developer</h3>
+        <h3 className="text-lg text-white">Front-end web Developer</h3>
         <p className="text-gray-300 italic text-sm max-w-xs">
           Building beautiful, user friendly web experiences.
         </p>
         <h4 className="text-gray-400 mt-4">
           Open to freelance and full time opportunities
         </h4>
-
         <div className="mt-8 flex gap-8 text-white">
           <a
             href="https://github.com/Ahmadi104"
@@ -57,7 +57,12 @@ function About() {
           Let Me Introduce Myself
         </h1>
 
-        <p className="text-gray-300 leading-relaxed">
+        <motion.div
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-gray-300 leading-relaxed"
+        >
           Hello 👋 ! I'm Ezatullah Ahmadi, a passionate Front-End Developer with
           a strong foundation in building modern, responsive web applications. I
           hold a{" "}
@@ -67,7 +72,6 @@ function About() {
           from Herat University, where I developed a solid understanding of web
           technologies and design principles. My expertise lies in using
           <span className="font-bold text-lg">
-            {" "}
             React.js, Next.js Tailwind CSS
           </span>
           , and other modern tools to transform ideas into clean, interactive,
@@ -75,7 +79,7 @@ function About() {
           solving real-world problems, and continuously improving my skills to
           stay current with the latest trends in web development. I’m excited to
           contribute to projects that make a meaningful impact.
-        </p>
+        </motion.div>
 
         <a
           href="/Ezatullah's CV3.pdf"
