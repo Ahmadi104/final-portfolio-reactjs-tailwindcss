@@ -44,7 +44,7 @@ function Navbar() {
             to="/tech"
             className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
           >
-            Tech
+            Technologies
           </Link>
         </li>
         <li>
@@ -119,7 +119,7 @@ function Navbar() {
                 to="/tech"
                 className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
               >
-                Tech
+                Technologies
               </Link>
             </li>
             <li>
