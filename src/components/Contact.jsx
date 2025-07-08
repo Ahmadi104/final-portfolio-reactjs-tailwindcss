@@ -12,9 +12,9 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen w-full mt-12 text-white px-4 py-16 flex flex-col items-center"
+      className="min-h-screen w-full mt-18 text-white px-4 py-16 flex flex-col items-center"
     >
-      <div className="text-center mb-10">
+      <div className="text-center mb-6">
         <h1 className="text-2xl font-light text-white md:text-5xl">
           Let&apos;s work together
         </h1>

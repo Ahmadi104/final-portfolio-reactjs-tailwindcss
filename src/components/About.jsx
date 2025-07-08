@@ -63,15 +63,15 @@ function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-gray-300 leading-relaxed"
         >
-          Hello 👋 ! I'm Ezatullah Ahmadi, a passionate Front-End Developer with
-          a strong foundation in building modern, responsive web applications. I
-          hold a{" "}
+          Hello 👋 ! I'm Ezatullah Ahmadi. I hold a{" "}
           <span className="font-bold">
             Bachelor’s degree in Computer Science
           </span>{" "}
-          from Herat University, where I developed a solid understanding of web
-          technologies and design principles. My expertise lies in using
+          from <span className="font-bold">Herat University</span>, where I
+          developed a solid understanding of web technologies and design
+          principles. My expertise lies in using
           <span className="font-bold text-lg">
+            {" "}
             React.js, Next.js Tailwind CSS
           </span>
           , and other modern tools to transform ideas into clean, interactive,

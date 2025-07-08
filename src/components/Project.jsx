@@ -32,10 +32,11 @@ const projectsData = [
   },
   {
     image: image4,
-    title: "fourth title",
+    title: "Movie-search-app",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
-    technologies: ["Reactjs", "CSS", "JavaScript", "MySQL"],
+    technologies: ["Reactjs", "CSS", "HTML"],
+    github: "https://github.com/Ahmadi104/movie-search-app.git",
   },
 ];
 export const ScrollReveal = ({ children }) => {
