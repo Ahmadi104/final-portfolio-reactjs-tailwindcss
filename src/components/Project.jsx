@@ -10,7 +10,7 @@ const projectsData = [
     image: image1,
     title: "A simple store Project",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
+      "Users can browse products, view detailed descriptions, add items to their cart, and apply discount codes. The app features dynamic routing, a global shopping cart using React Context.",
     technologies: ["HTML", "Tailwindcss", "Nextjs"],
     github: "https://github.com/Ahmadi104/storeproject-nextjs.git",
   },
@@ -18,7 +18,7 @@ const projectsData = [
     image: image2,
     title: "A greate todo-list app",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
+      "A beautifully designed and fully responsive to-do list application that helps users manage tasks efficiently. The app allows adding, editing, deleting.Built using React and Tailwind CSS, this project demonstrates practical use of state management, component-based architecture",
     technologies: ["React js", "Tailwindcss"],
     github: "https://github.com/Ahmadi104/Todo-List.git",
   },
@@ -26,7 +26,7 @@ const projectsData = [
     image: image3,
     title: "A simple blog website for your articles",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
+      "A basic and responsive blog site for displaying articles. Designed with a clean layout and easy navigation, this project focuses on simplicity, readability, and modern design using basic front-end tools.",
     technologies: ["Nextjs", "tailwindcss", "JavaScript"],
     github: "https://github.com/Ahmadi104/Article-blog.git",
   },
@@ -34,7 +34,7 @@ const projectsData = [
     image: image4,
     title: "Movie-search-app",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ullam ipsam quam voluptas omnis placeat aliquid rerum modi consequatur ex optio quas amet quis, minima magnam",
+      "A simple and responsive web app that allows users to search for movies by title and view details like posters, release dates, and overviews. Built using a movie API, this project showcases dynamic data fetching, search functionality, and clean UI design.",
     technologies: ["Reactjs", "CSS", "HTML"],
     github: "https://github.com/Ahmadi104/movie-search-app.git",
   },
