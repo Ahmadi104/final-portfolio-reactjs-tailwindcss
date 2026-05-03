@@ -82,7 +82,7 @@ function About() {
         </motion.div>
 
         <a
-          href="/Ezatullah's CV3.pdf"
+          href="/EzatGenralCV.pdf"
           className="inline-block rounded-lg border border-indigo-600 px-4 py-2 text-white shadow-md shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl bg-indigo-900 hover:shadow-indigo-600"
         >
           Download CV
